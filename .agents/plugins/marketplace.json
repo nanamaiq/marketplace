@@ -1,7 +1,7 @@
 {
-  "name": "nanamaiq-codex",
+  "name": "nanamaiq",
   "interface": {
-    "displayName": "Nanama IQ Codex"
+    "displayName": "Nanama IQ plugins"
   },
   "plugins": [
     {
