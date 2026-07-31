@@ -7,7 +7,7 @@ description: Create, modify, move, or review domain models while enforcing the s
 
 ## Apply the base-model rule
 
-- Make every concrete type in the Domain assembly inherit `NanamaIq.[YourProjectName].Domain.Models.DomainModel`, directly or indirectly (where `[YourProjectName]` is your actual project name in namespace).
+- Make every concrete type in the Domain assembly inherit `Domain.Models.DomainModel`, directly or indirectly.
 - Keep `DomainModel` in `src/Domain/Models/DomainModel.cs`.
 - Reuse its `Id`, `CreatedAt`, `CreatedBy`, `UpdatedAt`, and `UpdatedBy` properties. Never redeclare them on derived models.
 - Keep business-specific properties on the derived model.
