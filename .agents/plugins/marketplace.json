@@ -1,0 +1,22 @@
+{
+  "name": "nanamaiq-codex",
+  "interface": {
+    "displayName": "Nanama IQ Codex"
+  },
+  "plugins": [
+    {
+      "name": "nanamaiq-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nanamaiq/codex-shared.git",
+        "path": "./plugins/nanamaiq-engineering",
+        "ref": "v1.0.0"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
