@@ -7,10 +7,10 @@
     {
       "name": "nanamaiq",
       "source": {
-        "source": "local",
+        "source": "git-subdir",
         "url": "https://github.com/nanamaiq/codex-shared.git",
         "path": "./plugins/nanamaiq",
-        "ref": "v1.2.0"
+        "ref": "v1.3.0"
       },
       "policy": {
         "installation": "INSTALLED_BY_DEFAULT",
