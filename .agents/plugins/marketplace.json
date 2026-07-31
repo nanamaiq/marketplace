@@ -5,16 +5,16 @@
   },
   "plugins": [
     {
-      "name": "nanamaiq-engineering",
+      "name": "nanamaiq",
       "source": {
-        "source": "git-subdir",
+        "source": "local",
         "url": "https://github.com/nanamaiq/codex-shared.git",
-        "path": "./plugins/nanamaiq-engineering",
+        "path": "./plugins/nanamaiq",
         "ref": "v1.0.0"
       },
       "policy": {
         "installation": "INSTALLED_BY_DEFAULT",
-        "authentication": "ON_INSTALL"
+        "authentication": "ON_USE"
       },
       "category": "Productivity"
     }
