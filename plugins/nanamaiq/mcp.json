@@ -1,9 +1,9 @@
 {
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
     "nanamaiq": {
-      "type": "streamable-http",
-      "url": "https://studiomcpdev.nanamaiq.com/mcp"
+      "type": "http",
+      "url": "https://studiomcpdev.nanamaiq.com/mcp",
+      "bearer_token_env_var": "NANAMAIQ_STUDIO_API_KEY"
     }
   }
 }

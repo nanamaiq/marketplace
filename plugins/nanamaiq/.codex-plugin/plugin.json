@@ -1,10 +1,10 @@
 {
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "nanamaiq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Connect Codex to Nanama IQ company and workflow tools.",
   "author": {
     "name": "Nanama IQ"
   },
-  "keywords": ["nanamaiq", "mcp"]
+  "keywords": ["nanamaiq", "mcp"],
+  "mcpServers": "./.mcp.json"
 }
