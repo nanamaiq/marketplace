@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "nanamaiq": {
+      "type": "http",
+      "url": "https://studiomcpdev.nanamaiq.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${NANAMAIQ_STUDIO_API_KEY}"
+      }
+    }
+  }
+}

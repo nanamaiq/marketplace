@@ -1,0 +1,17 @@
+{
+  "name": "nanamaiq",
+  "owner": {
+    "name": "Nanama IQ",
+    "url": "https://github.com/nanamaiq"
+  },
+  "description": "Nanama IQ plugins for Claude Code.",
+  "plugins": [
+    {
+      "name": "nanamaiq",
+      "source": "./plugins/nanamaiq",
+      "description": "Connect Claude Code to Nanama IQ company and workflow tools.",
+      "category": "Productivity",
+      "tags": ["nanamaiq", "mcp"]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "nanamaiq",
+  "displayName": "Nanama IQ",
+  "version": "1.1.0",
+  "description": "Connect Claude Code to Nanama IQ company and workflow tools.",
+  "author": {
+    "name": "Nanama IQ",
+    "url": "https://github.com/nanamaiq"
+  },
+  "repository": "https://github.com/nanamaiq/marketplace",
+  "keywords": ["nanamaiq", "mcp"],
+  "mcpServers": "./.mcp.claude.json"
+}

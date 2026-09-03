@@ -1,10 +1,24 @@
 {
   "name": "nanamaiq",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Connect Codex to Nanama IQ company and workflow tools.",
   "author": {
     "name": "Nanama IQ"
   },
   "keywords": ["nanamaiq", "mcp"],
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Nanama IQ",
+    "shortDescription": "Company intelligence and workflow tools",
+    "longDescription": "Connect Codex to Nanama IQ company intelligence and workflow tools through MCP.",
+    "developerName": "Nanama IQ",
+    "category": "Productivity",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://github.com/nanamaiq/marketplace",
+    "defaultPrompt": [
+      "Show me the companies available in Nanama IQ.",
+      "Get the latest intelligence for a company.",
+      "Help me work with Nanama IQ company data."
+    ]
+  }
 }
